@@ -1,0 +1,126 @@
+{
+  "time" : {
+    "start" : 1583084224365,
+    "stop" : 1583086780828,
+    "duration" : 2556463
+  },
+  "testSuites" : [ {
+    "uid" : "2d8338e647d805ea",
+    "name" : "A description",
+    "title" : "A description",
+    "time" : {
+      "start" : 1583084224365,
+      "stop" : 1583086780828,
+      "duration" : 2556463
+    },
+    "statistic" : {
+      "total" : 9,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 4
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "20826ae8b81d637",
+      "name" : "Validar mensagem de erro de retorno com o pais Brasil",
+      "title" : "Validar mensagem de erro de retorno com o pais Brasil",
+      "time" : {
+        "start" : 1583085816264,
+        "stop" : 1583085861148,
+        "duration" : 44884
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9b813925612f9817",
+      "name" : "Validar mensagem de erro de retorno com o pais Brasil",
+      "title" : "Validar mensagem de erro de retorno com o pais Brasil",
+      "time" : {
+        "start" : 1583084850472,
+        "stop" : 1583084901044,
+        "duration" : 50572
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e600c401cdf6c9d8",
+      "name" : "Validar mensagem de erro de retorno com o pais Brasil",
+      "title" : "Validar mensagem de erro de retorno com o pais Brasil",
+      "time" : {
+        "start" : 1583084224365,
+        "stop" : 1583084287329,
+        "duration" : 62964
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "41e3f6382b3a57d9",
+      "name" : "Validar mensagem de erro de retorno com o pais de Canada",
+      "title" : "Validar mensagem de erro de retorno com o pais de Canada",
+      "time" : {
+        "start" : 1583084287329,
+        "stop" : 1583084345358,
+        "duration" : 58029
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "685aacfb856e8bfc",
+      "name" : "Validar mensagem de erro de retorno com o pais de Uruguay",
+      "title" : "Validar mensagem de erro de retorno com o pais de Uruguay",
+      "time" : {
+        "start" : 1583084345358,
+        "stop" : 1583084404684,
+        "duration" : 59326
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "623480721321e3b1",
+      "name" : "Validar mensagem de erro de retorno com o pais Brasil",
+      "title" : "Validar mensagem de erro de retorno com o pais Brasil",
+      "time" : {
+        "start" : 1583086646377,
+        "stop" : 1583086698595,
+        "duration" : 52218
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5df395320d9d79e7",
+      "name" : "Validar mensagem de erro de retorno com o pais de Canada",
+      "title" : "Validar mensagem de erro de retorno com o pais de Canada",
+      "time" : {
+        "start" : 1583086698657,
+        "stop" : 1583086739317,
+        "duration" : 40660
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "95e83a419ca94b41",
+      "name" : "Validar mensagem de erro de retorno com o pais de Uruguay",
+      "title" : "Validar mensagem de erro de retorno com o pais de Uruguay",
+      "time" : {
+        "start" : 1583086739317,
+        "stop" : 1583086780828,
+        "duration" : 41511
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "b037c309d6b1abce",
+      "name" : "Validar mensagem de erro de retorno com o pais Brasil",
+      "title" : "Validar mensagem de erro de retorno com o pais Brasil",
+      "time" : {
+        "start" : 1583085638059,
+        "stop" : 1583085689883,
+        "duration" : 51824
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  } ]
+}

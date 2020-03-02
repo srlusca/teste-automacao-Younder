@@ -1,0 +1,116 @@
+{
+  "uid" : "7091e1bed1dba3fb",
+  "name" : "Validar mensagem de erro de retorno com o pais de Canada",
+  "title" : "Validar mensagem de erro de retorno com o pais de Canada",
+  "time" : {
+    "start" : 1583086698657,
+    "stop" : 1583086739317,
+    "duration" : 40660
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "9fbd5f7961dd81cd",
+    "name" : "A description",
+    "title" : "A description"
+  },
+  "steps" : [ {
+    "name" : "Dado que eu acessei a pagina 'fakenamegenerator.com'",
+    "title" : "Dado que eu acessei a pagina 'fakenamegenerator.com'",
+    "time" : {
+      "start" : 1583086698657,
+      "stop" : 1583086718825,
+      "duration" : 20168
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail",
+    "title" : "E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail",
+    "time" : {
+      "start" : 1583086718825,
+      "stop" : 1583086718921,
+      "duration" : 96
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas",
+    "title" : "Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas",
+    "time" : {
+      "start" : 1583086718921,
+      "stop" : 1583086728496,
+      "duration" : 9575
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Entao seleciono o pais de 'Canada' e insiro telefone invalido",
+    "title" : "Entao seleciono o pais de 'Canada' e insiro telefone invalido",
+    "time" : {
+      "start" : 1583086728496,
+      "stop" : 1583086735185,
+      "duration" : 6689
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "5724@Note_PE02WULH.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Validar mensagem de erro de retorno com o pais de Canada"
+  }, {
+    "name" : "suite-name",
+    "value" : "A description"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "Note_PE02WULH"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "A description"
+  } ],
+  "parameters" : [ ]
+}

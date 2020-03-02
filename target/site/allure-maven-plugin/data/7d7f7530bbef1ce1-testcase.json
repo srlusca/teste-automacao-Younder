@@ -1,0 +1,119 @@
+{
+  "uid" : "7d7f7530bbef1ce1",
+  "name" : "Validar mensagem de erro de retorno com o pais de Uruguay",
+  "title" : "Validar mensagem de erro de retorno com o pais de Uruguay",
+  "time" : {
+    "start" : 1583084345358,
+    "stop" : 1583084404684,
+    "duration" : 59326
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : {
+    "message" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"countryList\"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']\"}\n  (Session info: chrome=80.0.3987.122)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'\nSystem info: host: 'Note_PE02WULH', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\LUCAS~1.MOR\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 73f2f966c0b043ecc116efbfc7ebdd6c\n*** Element info: {Using=xpath, value=//*[@id=\"countryList\"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']}",
+    "stackTrace" : "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"countryList\"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']\"}\n  (Session info: chrome=80.0.3987.122)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'\nSystem info: host: 'Note_PE02WULH', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\LUCAS~1.MOR\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 73f2f966c0b043ecc116efbfc7ebdd6c\n*** Element info: {Using=xpath, value=//*[@id=\"countryList\"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:394)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\n\tat pages.CreateAccountPage.clickSelectorCountry(CreateAccountPage.java:81)\n\tat tests.CreateAccountTest.insertTelephoneInvalidUruguay(CreateAccountTest.java:99)\n\tat ✽.Entao seleciono o pais de 'Uruguay' e insiro telefone invalido(features/createAccountTest.feature:23)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "9fbd5f7961dd81cd",
+    "name" : "A description",
+    "title" : "A description"
+  },
+  "steps" : [ {
+    "name" : "Dado que eu acessei a pagina 'fakenamegenerator.com'",
+    "title" : "Dado que eu acessei a pagina 'fakenamegenerator.com'",
+    "time" : {
+      "start" : 1583084345358,
+      "stop" : 1583084368005,
+      "duration" : 22647
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail",
+    "title" : "E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail",
+    "time" : {
+      "start" : 1583084368005,
+      "stop" : 1583084368080,
+      "duration" : 75
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas",
+    "title" : "Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas",
+    "time" : {
+      "start" : 1583084368080,
+      "stop" : 1583084388463,
+      "duration" : 20383
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Entao seleciono o pais de 'Uruguay' e insiro telefone invalido",
+    "title" : "Entao seleciono o pais de 'Uruguay' e insiro telefone invalido",
+    "time" : {
+      "start" : 1583084388463,
+      "stop" : 1583084400558,
+      "duration" : 12095
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "3696@Note_PE02WULH.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Validar mensagem de erro de retorno com o pais de Uruguay"
+  }, {
+    "name" : "suite-name",
+    "value" : "A description"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "Note_PE02WULH"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "A description"
+  } ],
+  "parameters" : [ ]
+}

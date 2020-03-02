@@ -1,0 +1,119 @@
+{
+  "uid" : "c4ba584f03eb5a29",
+  "name" : "Validar mensagem de erro de retorno com o pais de Uruguay",
+  "title" : "Validar mensagem de erro de retorno com o pais de Uruguay",
+  "time" : {
+    "start" : 1583086739317,
+    "stop" : 1583086780828,
+    "duration" : 41511
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : {
+    "message" : "ComparisonFailure: expected:<[Ocorreu um problema ao confirmar seu número de telefone].> but was:<[Este formato de número de telefone não é válido. Verifique o país e o número].>",
+    "stackTrace" : "org.junit.ComparisonFailure: expected:<[Ocorreu um problema ao confirmar seu número de telefone].> but was:<[Este formato de número de telefone não é válido. Verifique o país e o número].>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat tests.CreateAccountTest.insertTelephoneInvalidUruguay(CreateAccountTest.java:117)\n\tat ✽.Entao seleciono o pais de 'Uruguay' e insiro telefone invalido(features/createAccountTest.feature:23)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "9fbd5f7961dd81cd",
+    "name" : "A description",
+    "title" : "A description"
+  },
+  "steps" : [ {
+    "name" : "Dado que eu acessei a pagina 'fakenamegenerator.com'",
+    "title" : "Dado que eu acessei a pagina 'fakenamegenerator.com'",
+    "time" : {
+      "start" : 1583086739317,
+      "stop" : 1583086759477,
+      "duration" : 20160
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail",
+    "title" : "E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail",
+    "time" : {
+      "start" : 1583086759477,
+      "stop" : 1583086759580,
+      "duration" : 103
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas",
+    "title" : "Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas",
+    "time" : {
+      "start" : 1583086759580,
+      "stop" : 1583086770099,
+      "duration" : 10519
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Entao seleciono o pais de 'Uruguay' e insiro telefone invalido",
+    "title" : "Entao seleciono o pais de 'Uruguay' e insiro telefone invalido",
+    "time" : {
+      "start" : 1583086770099,
+      "stop" : 1583086776439,
+      "duration" : 6340
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "5724@Note_PE02WULH.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Validar mensagem de erro de retorno com o pais de Uruguay"
+  }, {
+    "name" : "suite-name",
+    "value" : "A description"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "Note_PE02WULH"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "A description"
+  } ],
+  "parameters" : [ ]
+}

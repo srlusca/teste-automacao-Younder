@@ -1,0 +1,116 @@
+{
+  "uid" : "f1e8b1353613cd3f",
+  "name" : "Validar mensagem de erro de retorno com o pais Brasil",
+  "title" : "Validar mensagem de erro de retorno com o pais Brasil",
+  "time" : {
+    "start" : 1583084850472,
+    "stop" : 1583084901044,
+    "duration" : 50572
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "9fbd5f7961dd81cd",
+    "name" : "A description",
+    "title" : "A description"
+  },
+  "steps" : [ {
+    "name" : "Dado que eu acessei a pagina 'fakenamegenerator.com'",
+    "title" : "Dado que eu acessei a pagina 'fakenamegenerator.com'",
+    "time" : {
+      "start" : 1583084850474,
+      "stop" : 1583084876372,
+      "duration" : 25898
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail",
+    "title" : "E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail",
+    "time" : {
+      "start" : 1583084876372,
+      "stop" : 1583084876601,
+      "duration" : 229
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas",
+    "title" : "Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas",
+    "time" : {
+      "start" : 1583084876601,
+      "stop" : 1583084896635,
+      "duration" : 20034
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Entao seleciono o pais de 'Brasil' e insiro o telefone invalido",
+    "title" : "Entao seleciono o pais de 'Brasil' e insiro o telefone invalido",
+    "time" : {
+      "start" : 1583084896635,
+      "stop" : 1583084896673,
+      "duration" : 38
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Validar mensagem de erro de retorno com o pais Brasil"
+  }, {
+    "name" : "thread",
+    "value" : "9404@Note_PE02WULH.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "A description"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "Note_PE02WULH"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "A description"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1583090099713" stop="1583090147987" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>A description</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1583090099743" stop="1583090147979" status="broken">
+            <name>Validar mensagem de erro de retorno com o pais de Uruguay</name>
+            <title>Validar mensagem de erro de retorno com o pais de Uruguay</title>
+            <description type="text"></description>
+            <failure>
+                <message>Test was interrupted</message>
+            </failure>
+            <labels>
+                <label name="story" value="Validar mensagem de erro de retorno com o pais de Uruguay"/>
+                <label name="feature" value="A description"/>
+                <label name="host" value="Note_PE02WULH"/>
+                <label name="thread" value="9156@Note_PE02WULH.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1583090099713" stop="1583090147987" status="broken">
+            <name>A description</name>
+            <title>A description</title>
+            <failure>
+                <message>Test suite was interrupted, some test cases may be lost</message>
+            </failure>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="A description"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

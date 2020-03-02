@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1583091018513" stop="1583091086622" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>A description</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1583091018543" stop="1583091086523" status="passed">
+            <name>Validar mensagem de erro de retorno com o pais de Uruguay</name>
+            <title>Validar mensagem de erro de retorno com o pais de Uruguay</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1583091018551" stop="1583091046970" status="passed">
+                    <name>Dado que eu acessei a pagina 'fakenamegenerator.com'</name>
+                    <title>Dado que eu acessei a pagina 'fakenamegenerator.com'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1583091046970" stop="1583091047160" status="passed">
+                    <name>E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail</name>
+                    <title>E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1583091047160" stop="1583091057559" status="passed">
+                    <name>Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas</name>
+                    <title>Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1583091057559" stop="1583091086507" status="passed">
+                    <name>Entao seleciono o pais de 'Uruguay' e insiro telefone invalido</name>
+                    <title>Entao seleciono o pais de 'Uruguay' e insiro telefone invalido</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Validar mensagem de erro de retorno com o pais de Uruguay"/>
+                <label name="feature" value="A description"/>
+                <label name="host" value="Note_PE02WULH"/>
+                <label name="thread" value="5912@Note_PE02WULH.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="A description"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

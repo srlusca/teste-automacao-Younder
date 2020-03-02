@@ -1,0 +1,79 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 9,
+        "passed" : 4,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 4
+      },
+      "time" : {
+        "start" : 1583084224365,
+        "stop" : 1583086780828,
+        "duration" : 2556463
+      }
+    },
+    "defects" : {
+      "totalCount" : 5,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "39adfa3797db2ee7",
+        "message" : "ComparisonFailure: expected:<[Ocorreu um problema ao confirmar seu número de telefone].> but was:<[Este formato de número de telefone não é válido. Verifique o país e o número].>",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "92f49443fa9dd8c4",
+        "message" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"countryList\"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']\"}\n  (Session info: chrome=80.0.3987.122)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'\nSystem info: host: 'Note_PE02WULH', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\LUCAS~1.MOR\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55165}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: fe733f3078a307a37619f079231b74f5\n*** Element info: {Using=xpath, value=//*[@id=\"countryList\"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']}",
+        "status" : "BROKEN"
+      }, {
+        "count" : 1,
+        "uid" : "b690019785b87acd",
+        "message" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"countryList\"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']\"}\n  (Session info: chrome=80.0.3987.122)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'\nSystem info: host: 'Note_PE02WULH', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\LUCAS~1.MOR\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55395}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 25f2ea76775a498d09d8396efe5fdcf5\n*** Element info: {Using=xpath, value=//*[@id=\"countryList\"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']}",
+        "status" : "BROKEN"
+      }, {
+        "count" : 1,
+        "uid" : "453e947c37e2287",
+        "message" : "NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"countryList\"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']\"}\n  (Session info: chrome=80.0.3987.122)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'\nSystem info: host: 'Note_PE02WULH', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\LUCAS~1.MOR\\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55610}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 73f2f966c0b043ecc116efbfc7ebdd6c\n*** Element info: {Using=xpath, value=//*[@id=\"countryList\"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']}",
+        "status" : "BROKEN"
+      }, {
+        "count" : 1,
+        "uid" : "bd2f8eba4ff6d595",
+        "message" : "ClassCastException: utils.WebdriverManager cannot be cast to org.openqa.selenium.WebDriver",
+        "status" : "BROKEN"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "2d8338e647d805ea",
+        "title" : "A description",
+        "statistic" : {
+          "total" : 9,
+          "passed" : 4,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 4
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "A description",
+        "statistic" : {
+          "total" : 9,
+          "passed" : 4,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 4
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

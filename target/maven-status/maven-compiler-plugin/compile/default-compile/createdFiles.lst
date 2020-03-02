@@ -1,0 +1,5 @@
+pages\EnterInGmailWithUserOrTelephonePage.class
+pages\FakeDataPage.class
+pages\CreateAccountPage.class
+utils\WebdriverManager.class
+tests\CreateAccountTest.class

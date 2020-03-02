@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1583088125820" stop="1583088164274" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>A description</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1583088125850" stop="1583088164274" status="broken">
+            <name>Validar mensagem de erro de retorno com o pais de Uruguay</name>
+            <title>Validar mensagem de erro de retorno com o pais de Uruguay</title>
+            <description type="text"></description>
+            <failure>
+                <message>NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'NOTE_PE02WULH', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\LUCAS~1.MOR\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:52812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ffdb8ac9302c358d554b874bd75d08ff
+*** Element info: {Using=xpath, value=//*[@id="countryList"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']}</message>
+                <stack-trace>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.122)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'NOTE_PE02WULH', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\LUCAS~1.MOR\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:52812}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ffdb8ac9302c358d554b874bd75d08ff
+*** Element info: {Using=xpath, value=//*[@id="countryList"]//div[@class='MocG8c aCjZuc LMgvRb KKjvXb'][@jsname='wQNmvb']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at pages.CreateAccountPage.clickSelectorCountry(CreateAccountPage.java:82)
+	at tests.CreateAccountTest.insertTelephoneInvalidUruguay(CreateAccountTest.java:112)
+	at ✽.Entao seleciono o pais de 'Uruguay' e insiro telefone invalido(features/createAccountTest.feature:23)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1583088125860" stop="1583088149938" status="passed">
+                    <name>Dado que eu acessei a pagina 'fakenamegenerator.com'</name>
+                    <title>Dado que eu acessei a pagina 'fakenamegenerator.com'</title>
+                </step>
+                <step start="1583088149938" stop="1583088150144" status="passed">
+                    <name>E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail</name>
+                    <title>E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail</title>
+                </step>
+                <step start="1583088150144" stop="1583088162184" status="passed">
+                    <name>Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas</name>
+                    <title>Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas</title>
+                </step>
+                <step start="1583088162184" stop="1583088164274" status="broken">
+                    <name>Entao seleciono o pais de 'Uruguay' e insiro telefone invalido</name>
+                    <title>Entao seleciono o pais de 'Uruguay' e insiro telefone invalido</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Validar mensagem de erro de retorno com o pais de Uruguay"/>
+                <label name="feature" value="A description"/>
+                <label name="host" value="Note_PE02WULH"/>
+                <label name="thread" value="7492@Note_PE02WULH.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="A description"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

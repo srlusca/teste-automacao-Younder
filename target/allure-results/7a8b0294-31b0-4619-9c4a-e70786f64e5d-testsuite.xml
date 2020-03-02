@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1583087570086" stop="1583087699134" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>A description</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1583087570106" stop="1583087615074" status="passed">
+            <name>Validar mensagem de erro de retorno com o pais Brasil</name>
+            <title>Validar mensagem de erro de retorno com o pais Brasil</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1583087570116" stop="1583087594404" status="passed">
+                    <name>Dado que eu acessei a pagina 'fakenamegenerator.com'</name>
+                    <title>Dado que eu acessei a pagina 'fakenamegenerator.com'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1583087594404" stop="1583087594607" status="passed">
+                    <name>E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail</name>
+                    <title>E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1583087594607" stop="1583087604210" status="passed">
+                    <name>Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas</name>
+                    <title>Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1583087604210" stop="1583087610910" status="passed">
+                    <name>Entao seleciono o pais de 'Brasil' e insiro o telefone invalido</name>
+                    <title>Entao seleciono o pais de 'Brasil' e insiro o telefone invalido</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Validar mensagem de erro de retorno com o pais Brasil"/>
+                <label name="feature" value="A description"/>
+                <label name="host" value="Note_PE02WULH"/>
+                <label name="thread" value="1528@Note_PE02WULH.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1583087615121" stop="1583087656550" status="passed">
+            <name>Validar mensagem de erro de retorno com o pais de Canada</name>
+            <title>Validar mensagem de erro de retorno com o pais de Canada</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1583087615121" stop="1583087636084" status="passed">
+                    <name>Dado que eu acessei a pagina 'fakenamegenerator.com'</name>
+                    <title>Dado que eu acessei a pagina 'fakenamegenerator.com'</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1583087636084" stop="1583087636218" status="passed">
+                    <name>E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail</name>
+                    <title>E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1583087636218" stop="1583087645452" status="passed">
+                    <name>Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas</name>
+                    <title>Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1583087645452" stop="1583087652154" status="passed">
+                    <name>Entao seleciono o pais de 'Canada' e insiro telefone invalido</name>
+                    <title>Entao seleciono o pais de 'Canada' e insiro telefone invalido</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Validar mensagem de erro de retorno com o pais de Canada"/>
+                <label name="feature" value="A description"/>
+                <label name="host" value="Note_PE02WULH"/>
+                <label name="thread" value="1528@Note_PE02WULH.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1583087656550" stop="1583087699119" status="failed">
+            <name>Validar mensagem de erro de retorno com o pais de Uruguay</name>
+            <title>Validar mensagem de erro de retorno com o pais de Uruguay</title>
+            <description type="text"></description>
+            <failure>
+                <message>ComparisonFailure: expected:&lt;[Ocorreu um problema ao confirmar seu número de telefone].&gt; but was:&lt;[Este formato de número de telefone não é válido. Verifique o país e o número].&gt;</message>
+                <stack-trace>org.junit.ComparisonFailure: expected:&lt;[Ocorreu um problema ao confirmar seu número de telefone].&gt; but was:&lt;[Este formato de número de telefone não é válido. Verifique o país e o número].&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at tests.CreateAccountTest.insertTelephoneInvalidUruguay(CreateAccountTest.java:117)
+	at ✽.Entao seleciono o pais de 'Uruguay' e insiro telefone invalido(features/createAccountTest.feature:23)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1583087656550" stop="1583087678502" status="passed">
+                    <name>Dado que eu acessei a pagina 'fakenamegenerator.com'</name>
+                    <title>Dado que eu acessei a pagina 'fakenamegenerator.com'</title>
+                </step>
+                <step start="1583087678502" stop="1583087678598" status="passed">
+                    <name>E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail</name>
+                    <title>E armazeno as informacoes necessarias do usuario para cadastrar-lo no gmail</title>
+                </step>
+                <step start="1583087678598" stop="1583087688573" status="passed">
+                    <name>Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas</name>
+                    <title>Quando sigo ate a pagina de 'Criar sua Conta do Google' e insiro as informacoes armazenadas</title>
+                </step>
+                <step start="1583087688573" stop="1583087694950" status="failed">
+                    <name>Entao seleciono o pais de 'Uruguay' e insiro telefone invalido</name>
+                    <title>Entao seleciono o pais de 'Uruguay' e insiro telefone invalido</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Validar mensagem de erro de retorno com o pais de Uruguay"/>
+                <label name="feature" value="A description"/>
+                <label name="host" value="Note_PE02WULH"/>
+                <label name="thread" value="1528@Note_PE02WULH.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="A description"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

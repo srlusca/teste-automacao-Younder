@@ -3,9 +3,6 @@ teste-automacao-Younder
 Foi utilizado:
 IntelliJ IDEA, Java, Seleniumm, Cucumber, BDD, Gherkin, Page Objects, Page Factory, Maven, Allure Reports, Chrome, ChromeDriver.
 
-Passos:
-Clone o projeto para sua máquina a partir deste repositório.
-
 Para gerar o relatório de testes, entre na raiz do projeto, utilize o terminal (GIT BASH ou PROMPT DE COMANDO) e digite o seguinte comando: mvn clean test
 Logo após, este comando: mvn site
 Entre na pasta "target/site/" e clique em "project-reports"
@@ -42,3 +39,4 @@ PERFORMANCE
     3.	Em qual ambiente deve ser realizado este tipo de testes?
         - Pré-Produção
     4.	Quais fatores devem ser analisados após o teste?
+        - Tempo, desempenho, limite do sistema, quantidade decarga utilizada.

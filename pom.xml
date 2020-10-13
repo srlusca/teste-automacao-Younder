@@ -14,7 +14,7 @@
         <aspectj>1.9.5</aspectj>
         <allure-maven-plugin>2.5</allure-maven-plugin>
         <!--DEPENDENCIES-->
-        <junit>4.13</junit>
+        <junit>4.13.1</junit>
         <testng>6.11</testng>
         <rest-assured>2.9.0</rest-assured>
         <selenium-java>4.0.0-alpha-4</selenium-java>
